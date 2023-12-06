@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+.skill{
+    padding-left: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    
+}
+.skill h2{
+    font-family: 'Lobster', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(84, 18, 18);;
+    font-size: 40px;
+}
+.skill ul{
+    font-family: 'Bree Serif', serif;
+    list-style-type: none;
+    margin: 20px;
+}
+.skill li{
+    padding: 10px;
+}
+.border{
+    background-color: #fce5a0;
+    width: 80%; 
+    border-radius: 15px; 
+    margin-top: 10px;
+    height: 10px;
+}
+.progress{
+    height: 10px;
+    background-color: rgb(84, 18, 18);;
+   
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px;
+    transition: width 0.5s ease;
+}
+
+.html{
+    width: 0%;
+}
+.skillleft li:hover .html {
+    width: 90%;
+}
+
+
+.css{
+    width: 0%;
+}
+.skillleft li:hover .css {
+    width: 90%;
+}
+
+.javascript{
+    width: 0%;
+}
+.skillleft li:hover .javascript {
+    width: 80%;
+}
+
+.java{
+    width: 0%;
+}
+.skillright li:hover .java {
+    width: 75%;
+}
+
+.c{
+    width: 0%;
+}
+.skillright li:hover .c {
+    width: 85%;
+}
+
+.python{
+    width: 0%;
+}
+.skillright li:hover .python{
+    width: 65%;
+}
+
+.skillssplit{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.skillleft ul li{
+    padding: 20px;
+    line-height: 40px;
+    color:  rgb(44, 2, 2);;
+    font-weight: 800;
+    font-size: 20px;
+}
+.skillright ul li{
+    padding: 20px;
+    line-height: 40px;
+    color:  rgb(44, 2, 2);;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

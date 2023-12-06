@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+.mainnavcontainer{
+    display: flex;
+    width: 90%;
+    align-content: center;
+    align-items: center;
+    height: 90%;
+    margin: auto;
+    color: rgb(84, 18, 18);
+    /* position: fixed; */
+}
+.logocontainer{
+    float: left;
+}
+.logocontainer h1{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 700;
+}
+.navbarcontainer{
+    float: right;
+    margin: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.navbarcontainer a{
+    text-decoration: none;
+    color:  rgb(84, 18, 18);;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    font-family: 'Bree Serif', serif;
+    font-weight: 600;
+    text-align: end;
+    font-size: 20px;
+}
+.navbarcontainer a.active{
+    color:#feb300
+}
+.navbarcontainer a:hover{
+    color: #feb300
+}
